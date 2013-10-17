@@ -18,6 +18,6 @@ php composer.phar update --no-scripts
 
 #create .gitignore
 touch ../.gitignore
-echo ${PROJECT}"/composer.lock" >> ../.gitignore
-echo ${PROJECT}"/composer.phar" >> ../.gitignore
-echo ${PROJECT}"/vendor" >> ../.gitignore
+echo "php_xml_reader/composer.lock" >> ../.gitignore
+echo "php_xml_reader/composer.phar" >> ../.gitignore
+echo "php_xml_reader/vendor" >> ../.gitignore
